@@ -2,8 +2,6 @@ body
 {
 width: 680px;
 color: white;
-position: relative;
-left: 300px;
 }
 
 header
@@ -12,7 +10,8 @@ background-color: #6C2DC7;
 width: 680px;
 text-align: center;
 padding-bottom: 15px;
-
+position: relative;
+left: 300px;
 }
 
 a
