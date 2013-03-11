@@ -30,7 +30,10 @@ nav
 background-color: #C38EC7;
 padding-bottom: 25px;
 }
-
+nav li
+{
+padding: 5px;
+}
 article
 {
 text-align: center;

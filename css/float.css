@@ -1,6 +1,6 @@
 body	
 {
-width: 681px;
+width: 680px;
 color: white;
 margin-left: auto;
 margin-right: auto;
@@ -9,8 +9,10 @@ margin-right: auto;
 header
 {
 background-color: #6C2DC7;
+width: 680px;
 text-align: center;
 padding-bottom: 15px;
+
 }
 
 a
@@ -28,13 +30,17 @@ nav
 background-color: #C38EC7;
 padding-bottom: 25px;
 }
-
+nav li
+{
+padding: 5px;
+}
 article
 {
 text-align: center;
 background-color: #FDD017;
 width: 453.33px;
 }
+
 section
 {
 background-color: orange;
@@ -46,7 +52,7 @@ padding-bottom: 35px;
 
 aside
 {
-background-color: #C38EC7;
+background-color: #AF7817;
 text-align: center;
 width: 227px;
 padding-bottom: 162px;
@@ -54,11 +60,13 @@ padding-bottom: 162px;
 
 footer
 {
+width: 680px;
 text-align: center;
 background-color: #6C2DC7;
 padding-bottom: 15px;
 clear: both;
 }
+
 #left
 {
 width: 453px;
@@ -66,9 +74,7 @@ float: left;
 }
 #right
 {
-width: 228px;
+width: 227px;
 float: right;
-text-align: center;
 background-color: #AF7817;
-padding-bottom: 162px;
 }
